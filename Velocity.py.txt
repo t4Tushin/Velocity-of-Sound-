@@ -1,0 +1,42 @@
+### Velocity of sound from Temperature ###
+
+#v1=velocity of air in 0°C (330 ms/1)
+#T1= 0°C temperature of environment in Kelvin form (273.15 K)
+#T2= Temperature of environment mentioned in stem (x+273)K
+#v2=? (Velocity of sound)
+
+
+#THE SOLUTION ALGORITHM
+
+v1 = float(330)
+T1 = float (273.15)
+T2 =float(input('What is the temperature of the environment mentioned in the stem? '))+273
+v2 = ((float(T2/T1))**.5)*v1
+
+#SOLUTION
+
+print('Solution: ' )
+print('--------------------------------------')
+print(f' Velocity of Air at 0°C : {v1} ms⁻¹(v1)')
+print('\n')
+print(f' Velocity of sound= {v2} ms⁻¹(v2)' )
+print('\n')
+print(f' Temperature at 0°C (Kelvin Form): {T1} K(T1)')
+print('\n')
+print(f'Temperature of environment mentioned in stem : {T2} K(T2)')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
